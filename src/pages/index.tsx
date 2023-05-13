@@ -10,19 +10,24 @@ export default function Index() {
       <div className={sharedStyles.layout}>
         <img
           src="/marina_abreu_blog_001.jpg"
-          height="85"
-          width="250"
-          alt="Vercel + Notion"
+          height="300"
+          width="500"
+          alt="Marina Abreu"
         />
-        <h1>Marina Abreu Tattoo Arts | Blog</h1>
-        <h2>
-          Blazing Fast Notion Blog with Next.js'{' '}
+        <h1>Marina Abreu :
           <ExtLink
-            href="https://github.com/vercel/next.js/issues/9524"
-            className="dotted"
-            style={{ color: 'inherit' }}
+            href="https://marinaabreublog.vercel.app/blog"
           >
-            SSG
+            : Blog
+          </ExtLink>
+        </h1>
+
+        <h2>
+          {' '}
+          <ExtLink
+            href="https://marinaabreublog.vercel.app/blog"
+          >
+            Tattoo Art`s
           </ExtLink>
         </h2>
 
@@ -30,35 +35,36 @@ export default function Index() {
 
         <div className="explanation">
           <p>
-            This is a statically generated{' '}
-            <ExtLink href="https://nextjs.org">Next.js</ExtLink> site with a{' '}
-            <ExtLink href="https://notion.so">Notion</ExtLink> powered blog that
-            is deployed with <ExtLink href="https://vercel.com">Vercel</ExtLink>
-            . It leverages some upcoming features in Next.js like{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/9524">
-              SSG support
-            </ExtLink>{' '}
-            and{' '}
-            <ExtLink href="https://github.com/vercel/next.js/issues/8626">
-              built-in CSS support
-            </ExtLink>{' '}
-            which allow us to achieve all of the benefits listed above including
-            blazing fast speeds, great local editing experience, and always
-            being available!
+            Olá e bem-vindos ao meu blog! Meu nome é Marina Abreu e sou tatuadora 
+            há 4 anos. Como uma profissional que trabalha com arte na pele, percebi 
+            que muitas pessoas têm dúvidas em relação ao processo de cicatrização 
+            da tatuagem e aos cuidados necessários após o procedimento. 
+            Foi por isso que decidi criar este espaço para compartilhar minhas 
+            experiências e conhecimentos com vocês.
           </p>
 
           <p>
-            Get started by creating a new page in Notion and clicking the deploy
-            button below. After you supply your token and the blog index id (the
-            page's id in Notion) we will automatically create the table for you!
-            See{' '}
-            <ExtLink href="https://github.com/ijjk/notion-blog#getting-blog-index-and-token">
-              here in the readme
-            </ExtLink>{' '}
-            for finding the new page's id. To get your token from Notion, login
-            and look for a cookie under www.notion.so with the name `token_v2`.
-            After finding your token and your blog's page id you should be good
-            to go!
+            Aqui no blog, você encontrará dicas valiosas sobre como cuidar da sua 
+            tatuagem após a cicatrização, técnicas que utilizo em meus trabalhos, 
+            além de outras curiosidades sobre o mundo da tattoo. Meu objetivo é 
+            ajudar você a ter uma experiência positiva e satisfatória com a sua 
+            tatuagem, desde o momento em que ela é feita até o momento em 
+            que cicatriza e permanece por toda sua vida.
+          </p>
+
+          <p>
+            Nestes anos, adquiri muito conhecimento sobre a arte de tatuar 
+            e estou sempre me atualizando sobre as melhores práticas e técnicas 
+            para oferecer aos meus clientes o melhor serviço possível. Aqui no 
+            blog, estou animada para compartilhar com vocês um pouco do que aprendi 
+            e responder a todas as suas dúvidas sobre tatuagem.
+          </p>
+
+          <p>
+            Então, se você é um entusiasta de tatuagem ou está pensando em fazer 
+            a sua primeira, este é o lugar certo para você. Fique à vontade para 
+            explorar o blog e deixar um comentário caso tenha alguma dúvida ou 
+            sugestão de tópico. Vamos aprender juntos!
           </p>
         </div>
       </div>
