@@ -28,7 +28,7 @@ const Header = ({ titlePre = '' }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
         <meta name="theme-name" content="parsa" />
 
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="Marina Abreu Blog" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@_ijjk" />
         <meta name="twitter:card" content="summary_large_image" />

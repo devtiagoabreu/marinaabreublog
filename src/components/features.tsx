@@ -8,7 +8,7 @@ import Edit from './svgs/edit'
 import Scroll from './svgs/scroll'
 
 const features = [
-  {
+  /*{
     text: 'Blazing fast',
     icon: Lightning,
   },
@@ -40,6 +40,7 @@ const features = [
     text: 'Great scores',
     icon: Lighthouse,
   },
+  */
 ]
 
 const Features = () => (

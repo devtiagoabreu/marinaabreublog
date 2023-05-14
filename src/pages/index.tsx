@@ -8,12 +8,15 @@ export default function Index() {
     <>
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
-        <img
-          src="/marina_abreu_blog_001.jpg"
-          height="300"
-          width="500"
-          alt="Marina Abreu"
-        />
+        <div className="covertop">
+          <img
+            src="/marina_abreu_blog_002.jpg"
+            id='imgtopo'
+            height="0.0001"
+            width="0.0001"
+            alt="Marina Abreu"
+          />
+        </div>
         <h1>Marina Abreu :
           <ExtLink
             href="https://marinaabreublog.vercel.app/blog"

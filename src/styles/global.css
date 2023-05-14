@@ -191,6 +191,15 @@ pre.dark[class*='language-'] {
   color: #50e3c2;
 }
 
+.covertop {
+  width: 100%;
+  height: 400px;
+  background: url("/marina_abreu_blog_001.jpg");
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
 .links {
   display: flex;
   text-align: center;
