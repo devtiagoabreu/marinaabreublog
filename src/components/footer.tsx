@@ -15,7 +15,7 @@ export default function Footer() {
         </ExtLink>
         <span>
           desenvolvido por{' '}
-          <ExtLink href="https://github.com/ijjk/notion-blog">
+          <ExtLink href="http://atriostech.com.br">
           Vercel | AtriosTech
           </ExtLink>
         </span>

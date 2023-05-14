@@ -129,7 +129,7 @@ async function main() {
                 'S6_"': { name: 'Slug', type: 'text' },
                 'la`A': { name: 'Published', type: 'checkbox' },
                 'a`af': { name: 'Date', type: 'date' },
-                'ijjk': { name: 'Authors', type: 'person' },
+                ijjk: { name: 'Authors', type: 'person' },
               },
               format: {
                 collection_page_properties: [
